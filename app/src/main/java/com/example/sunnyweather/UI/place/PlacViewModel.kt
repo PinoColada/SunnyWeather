@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import com.example.sunnyweather.Logic.Repository
 import com.example.sunnyweather.Logic.model.Place
 
-class PlacViewModel : ViewModel() {
+class PlaceViewModel : ViewModel() {
     private val searchLiveData = MutableLiveData<String>()
 
     val placeList = ArrayList<Place>()
